@@ -1,0 +1,6 @@
+metadata_version: 1
+name: aind-ophys-decrosstalk-split-session-json
+description: Splits motion correction data so that pairs are in one associated folder
+  for parallel processing
+authors:
+- name: Arielle Leon
