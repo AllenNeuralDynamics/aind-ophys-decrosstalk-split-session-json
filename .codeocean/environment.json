@@ -7,19 +7,14 @@
 		"mount_secrets": true
 	},
 	"installers": {
-		"pip": {
-			"packages": [
-				{
-					"name": "h5py"
-				}
-			],
-			"options": {},
-			"pre_install_options": {}
-		},
 		"pip3": {
 			"packages": [
 				{
-					"name": "git+https://github.com/AllenNeuralDynamics/aind-ophys-decrosstalk-split-session-json-library.git@%3Cshort-sha%3E#egg=aind-ophys-decrosstalk-split-session-json-library"
+					"name": "git+https://github.com/AllenNeuralDynamics/aind-ophys-decrosstalk-split-session-json-library.git@4c62802#egg=aind-ophys-decrosstalk-split-session-json-library"
+				},
+				{
+					"name": "h5py",
+					"version": "3.16.0"
 				}
 			],
 			"options": {},
