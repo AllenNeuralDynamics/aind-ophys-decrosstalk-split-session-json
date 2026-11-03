@@ -1,4 +1,4 @@
-# hash:sha256:5fa60ac3bac0a1b51874d575766466cdc92354406f2b652797722159a0a01454
+# hash:sha256:9f00dccac4546cbe0a36627e1bd7cce6b86776ffcbce51bff14358740ec7b1c2
 ARG REGISTRY_HOST
 FROM $REGISTRY_HOST/codeocean/jupyterlab:3.6.1-miniconda4.12.0-python3.9-ubuntu20.04
 
@@ -6,7 +6,7 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 ARG GIT_ASKPASS
 ARG GIT_ACCESS_TOKEN
-COPY git-askpass /
+COPY git-ask-pass /
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
